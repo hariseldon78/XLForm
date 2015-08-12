@@ -72,7 +72,7 @@
     @throw [NSException exceptionWithName:NSGenericException reason:@"initWithTag:(NSString *)tag rowType:(NSString *)rowType title:(NSString *)title must be used" userInfo:nil];
 }
 
--(instancetype)initWithTag:(NSString *)tag rowType:(NSString *)rowType title:(NSString *)title;
+-(instancetype)initWithTag:(NSString *)tag rowType:(NSString *)rowType title:(NSString *)title
 {
     self = [super init];
     if (self){
